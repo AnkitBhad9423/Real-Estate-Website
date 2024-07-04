@@ -10,10 +10,11 @@ const Residencies = () => {
       <div className="paddings innerWidth r-container">
         <div className="r-head flexColStart">
           <span className="orangeText">Best Choice</span>
-          <spa className="primaryText">Popular Residencies</spa>
+          <span className="primaryText">Popular Residencies</span>
         </div>
 
         <Swiper {...sliderSettings}>
+          <SlidersButtons />
           {data.map((card, i) => (
             <SwiperSlide key={i}>
               <div className="flexColStart r-card">
@@ -36,3 +37,13 @@ const Residencies = () => {
 };
 
 export default Residencies;
+
+const SlidersButtons = () => {
+  const swiper = useSwiper();
+  return (
+    <div className="flexCenter r-buttons">
+      <button onClick={() => swiper.slidePrev()}>&lt;</button>
+      <button onClick={() => swiper.slideNext()}>&gt;</button>
+    </div>
+  );
+};
