@@ -8,7 +8,6 @@ The Real Estate Website is a modern, user-friendly web application designed for 
 
 - **Property Listings:** Display a comprehensive list of properties with essential details including images, descriptions, and pricing.
 - **Property Details Page:** Provide in-depth information about each property, including high-quality images, property specifications, and contact information.
-- **Search and Filter:** Enable users to search for properties based on various criteria and apply filters to narrow down their choices.
 - **Responsive Design:** Ensure a seamless experience across various devices, including desktops, tablets, and smartphones.
 - **Interactive Elements:** Utilize features like accordions for expandable sections, swipers for image galleries, and outside click handlers to enhance user interactions.
 
