@@ -38,10 +38,10 @@ To get a local copy of the project up and running, follow these steps:
 2. Run the following command to clone the repository:
 ```bash
 git clone https://github.com/Ankzcoder/Real-Estate-Website.git
-
+```
 ```bash
 cd Real-Estate-Website
-
+```
 
    
 
