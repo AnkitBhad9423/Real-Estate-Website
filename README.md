@@ -39,11 +39,22 @@ To get a local copy of the project up and running, follow these steps:
 ```bash
 git clone https://github.com/Ankzcoder/Real-Estate-Website.git
 ```
+Navigate into the project directory:
 ```bash
 cd Real-Estate-Website
 ```
-
-   
+Install the project dependencies using npm:
+```bash
+npm install
+```
+Start the development server:
+```bash
+npm start
+```
+To create a production build of the project, run:
+ ```bash
+npm run build
+```  
 
 
 
